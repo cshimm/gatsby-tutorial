@@ -31,7 +31,7 @@ const ComponentName = ({ data }) => {
 
 export const query = graphql`
   {
-    allContentfulProduct(limit: 3) {
+    allContentfulProduct(limit: 4) {
       nodes {
         id
         price
